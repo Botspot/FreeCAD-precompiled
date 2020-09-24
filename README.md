@@ -26,7 +26,9 @@ cd freecad-build || error "Failed to enter directory!"
 sudo make install || error "sudo make install failed!"
 ```
 ## To uninstall:  
-```sudo rm -f $(cat ~/freecad-build/install_manifest.txt)
-rm -rf freecad-build FreeCAD-0.18.4```
+```
+sudo rm -f $(cat ~/freecad-build/install_manifest.txt)
+rm -rf freecad-build FreeCAD-0.18.4
+```
 
 This was compiled on a Raspberry Pi 4 on 9/21/2020.

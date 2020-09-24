@@ -1,6 +1,6 @@
 # FreeCAD-precompiled
 This is a version of FreeCAD that has already been compiled for Raspberry Pi. Followed [Scruss's tutorial](https://scruss.com/blog/2020/02/16/freecad-on-raspberry-pi-4/) for FreeCAD version 0.18.4  
-To install:  
+## To install:  
 ```function error {
   echo -e "\e[31m$1\e[39m"
   exit 1
@@ -23,8 +23,8 @@ rm -f ~/freecad-precompiled.zip || error "Failed to delete archive!"
 
 cd freecad-build || error "Failed to enter directory!"
 sudo make install || error "sudo make install failed!"
-
-To uninstall:  
+```
+## To uninstall:  
 ```sudo rm -f $(cat ~/freecad-build/install_manifest.txt)
 rm -rf freecad-build FreeCAD-0.18.4```
 

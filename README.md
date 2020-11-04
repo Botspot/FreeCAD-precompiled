@@ -1,5 +1,6 @@
 # FreeCAD-precompiled
 This is a version of FreeCAD that has already been compiled for Raspberry Pi. Followed [Scruss's tutorial](https://scruss.com/blog/2020/02/16/freecad-on-raspberry-pi-4/) for FreeCAD version 0.18.4  
+[![badge](https://github.com/Botspot/pi-apps/blob/master/icons/badge.png?raw=true)](https://github.com/Botspot/pi-apps)  
 ## To install:  
 ```
 function error {
